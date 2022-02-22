@@ -48,4 +48,4 @@ router.delete('/clients/:id',(req, res)=>{
             .catch((error) => res.json({ message: error }))
     })
     
-module.exports = route
+module.exports = router
